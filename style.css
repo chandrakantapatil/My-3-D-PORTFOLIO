@@ -1,0 +1,132 @@
+#main-container {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+  }
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+   }
+    
+    
+   :root {
+    --dark-bg: rgba(53, 46, 46, 0.95);
+    --spacing: 350px;
+    
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   }
+    
+    
+   main {
+    width: 100vw;
+    color: rgb(242, 246, 240);
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    margin: 0px auto;
+    padding: 120px 0px;
+    
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+   }
+    
+   h1 {
+    font-family: elevon, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-display: bold ;
+   }
+   h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback; 
+    color: #93fe3c;
+
+  }
+  h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback; 
+    color: #93fe3c;
+
+  }
+  h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    color: rgb(224, 29, 242);
+
+  }
+  h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: bold ; 
+    font-size : 0.4in;
+    color: rgb(236, 218, 50);
+  }
+    
+   canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+   }
+    
+    
+    
+    header {
+    background: var(--dark-bg);
+    grid-column: 2 / span 5;
+    font-size: 1.5rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+     }
+    
+    section {
+    grid-column: 2 / 8;
+    padding: 1rem;
+    background: var(--dark-bg);
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: var(--spacing);
+     }
+    
+    blockquote {
+    margin: 0;
+    padding: 0;
+    grid-column: 2/ span 11;
+    margin-bottom: var(--spacing);
+    color: blue;
+     }
+     
+    blockquote q{
+      margin: 0;
+      padding: 0;
+      grid-column: 3/ span 15;
+      margin-bottom: var(--spacing);
+      color: rgb(89, 23, 210);
+       }
+    
+    blockquote p {
+    color: rgb(196, 30, 196);
+    background-color: white;
+    font-size: 0.5in;
+    display: inline;
+    line-height: 1;
+     }
+    
+     blockquote q {
+      color: rgb(11, 9, 11);
+      background-color: rgb(210, 236, 238);
+      font-size: 0.5in;
+      display: inline;
+      line-height: 1;
+       }
+      
+    .left {
+    grid-column: 6 / 12;
+     }

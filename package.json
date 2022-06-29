@@ -1,0 +1,21 @@
+{
+  "name": "my-3-d-portfolio",
+  "version": "1.0.0",
+  "description": "3-d portfolio",
+  "main": "index.js",
+  
+  "scripts":  {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"},
+    "devDependencies": {
+        "vite": "^2.9.7"
+      },
+      "dependencies": {
+        "three": "^0.140.0"
+    },
+    
+   
+  "author": "Chandrakanta patil",
+  "license": "ISC"
+}
